@@ -1,0 +1,24 @@
+* {
+  /* 아래 3개의 속성은 css에서 거의 기본적으로 사용한다고 보면 될 듯. */
+  padding: 0;
+  margin: 0;
+  /* css 기본 설정에서 너비가 100이라면 텍스트 너비가 100이고 마진이 있고...
+  그래서 css에서 직관적으로 너비 등을 알기 어려움. 그런 부분 때문에 아래 설정을 사용한다. */
+  box-sizing: border-box;
+}
+.section {
+  background-color: red;
+}
+.container {
+  --pXVal: 36px;
+  background-color: green;
+  max-width: calc(1200px + 2 * var(--pXVal));
+  margin-inline: auto;
+  padding-inline: var(--pXVal);
+  /* 변수 사용할 때 --를 앞에 */
+}
+.wrapper {
+  background-color: blue;
+  padding: 32px;
+  color: white;
+}
