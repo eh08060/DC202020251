@@ -159,21 +159,15 @@
   container-name: footer;
   a {
     text-decoration: none;
-    color: white;
+    color: gray;
   }
   li {
     list-style: none;
   }
   svg {
-    fill: white;
+    fill: gray;
   }
   .wrapper {
-    // display: flex;
-    // justify-content: space-between;
-    // gap: 24px;
-    // > * {
-    //   flex: 1;
-    // }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
