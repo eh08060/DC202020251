@@ -20,4 +20,23 @@
 .nav {
   background-color: black;
   color: white;
+  font-weight: 700;
+}
+
+.nav .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 12px;
+  align-items: baseline;
+}
+
+.nav .nav__menuWrapper {
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+}
+.button {
+  background-color: slateblue;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
