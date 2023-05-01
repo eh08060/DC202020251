@@ -60,3 +60,38 @@
   color: slateblue;
   padding-inline: 0;
 }
+
+#hero1 .button {
+  margin-inline: auto;
+}
+#hero1 .main__text {
+  margin-inline: auto;
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+#hero1__media {
+  aspect-ratio: 16/9;
+  background-color: antiquewhite;
+}
+#hero1 h2 {
+  margin-bottom: 16px;
+}
+#hero1 p {
+  margin-bottom: 24px;
+}
+
+#hero2 {
+  background-color: aliceblue;
+}
+#hero2 .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#hero2 .wrapper > * {
+  flex: 1;
+}
+#hero2 .main__media {
+  aspect-ratio: 4/3;
+  background-color: antiquewhite;
+}

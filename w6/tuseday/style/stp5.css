@@ -60,3 +60,27 @@
   color: slateblue;
   padding-inline: 0;
 }
+
+#hero1 {
+  text-align: center;
+}
+#hero1 .button {
+  margin-inline: auto;
+}
+#hero1 .main__text {
+  margin-inline: auto;
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+#hero1__media {
+  aspect-ratio: 16/9;
+  background-color: antiquewhite;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 24px;
+}
