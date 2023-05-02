@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gowun Dodum", sans-serif;
+  font-family: "Gowun Batang", serif;
 }
 
 .section {
@@ -100,7 +100,7 @@
 }
 
 #hero2 {
-  background-color: aliceblue;
+  background-color: rgb(255, 231, 221);
 }
 #hero2 .wrapper {
   display: flex;
