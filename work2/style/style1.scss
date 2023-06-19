@@ -6,7 +6,9 @@
 
 body {
   margin: 0;
-  // background-color: rgb(0, 0, 20);
+  background-color: rgb(0, 0, 20);
+  font-family: "Hahmlet", serif;
+  line-height: 1.8;
 }
 
 .section {
@@ -21,14 +23,13 @@ body {
 }
 
 .nav {
-  // color: white;
-  font-family: "Bruno Ace SC", cursive;
+  color: white;
+
   padding: 8px;
 }
 
 .main {
-  // color: blanchedalmond;
-  font-family: "Hahmlet", serif;
+  color: blanchedalmond;
 }
 
 .fade-in-box {
