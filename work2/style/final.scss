@@ -1,5 +1,6 @@
 @import "theme.dark.css" (prefers-color-scheme: dark);
 @import "theme.light.css" (prefers-color-scheme: light);
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;700&display=swap");
 
 $wrapper-padding-inline: 2rem;
 $min-height: 2rem;
@@ -16,6 +17,8 @@ $accent: var(--accent);
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: "Hahmlet", serif;
+  line-height: 1.6;
 }
 
 .hide {
@@ -40,19 +43,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: calc(80ch + 2 * $wrapper-padding-inline);
-  min-height: max(50dvh, $min-height);
+  max-width: calc(50ch + 2 * $wrapper-padding-inline);
+  min-height: max(1dvh, $min-height);
   margin-inline: auto;
   padding-inline: $wrapper-padding-inline;
 }
 
 header {
   text-align: center;
-  text-wrap: balance;
+
   word-break: keep-all;
 }
 
-section:nth-of-type(odd) {
+section:nth-of-type(even) {
   background-color: $bgVariant;
 }
 
@@ -156,6 +159,7 @@ aside {
 }
 
 footer {
+  background-color: #d9d9d9;
   .wrapper {
     min-height: max(100dvh, $min-height);
   }
@@ -218,4 +222,32 @@ footer {
       justify-content: flex-start;
     }
   }
+}
+
+.fade-in-box {
+  display: inline-block;
+  padding: 10px;
+  animation: fadein 3s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.media {
+  object-fit: cover;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  text-align: center;
 }

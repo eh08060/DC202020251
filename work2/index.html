@@ -2,40 +2,195 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style1.css" />
-    <title>유랑화사</title>
-    <!-- <script>
-      alert("<유랑화사> 1권에서 발췌");
-    </script>
-  </head> -->
+    <link rel="stylesheet" href="style/final.css" />
+    <script src="script/progressBar.js" defer></script>
+    <!-- <script src="script/onClickBtn.js" defer></script> -->
+    <script src="script/scrollReactBtn.js" defer></script>
+    <title>202020251 박은서 기말 과제물</title>
+  </head>
   <body>
-    <div class="section nav">
-      <div class="fade-in-box">
-        <div class="container"><h2>그믐달</h2></div>
+    <header>
+      <div class="wrapper">
+        <div class="fade-in-box"><h1>유랑화사</h1></div>
       </div>
-    </div>
-    <div class="section main">
-        <div class="media">
-            <img src="img/forest-gac696fced_640.jpg" alt="" />
+    </header>
+    <div class="stickyWrapper">
+      <main>
+        <div class="wrapper" style="margin: 0.8rem"></div>
+        <section id="section1">
+          <div class="wrapper">
+            <div class="media">
+              <img
+                src="img/forest-4395986_1280.jpg"
+                alt="Image by Harmony Lawrence from Pixabay" />
+            </div>
+            <h2>그믐달</h2>
+            <p>
+              달이 있는 것도 아니고
+              <br />
+              없는 것도 아니고
+              <br />
+              이지러질 듯 그러나 서늘하게
+              <br />
+              어둠을 밝히는 빛.
+              <br />
+              그렇게 있는 듯 없는 듯
+              <br />
+              세상을 떠도는
+              <br />
+              어느 이상한 화사가
+              <br />
+              있다던데…….
+            </p>
           </div>
-          <div class="container">
+        </section>
+        <section id="section2">
+          <div class="wrapper">
+            <div class="media">
+              <img
+                src="img/fox-7808911_1280.jpg"
+                alt="Image by Angela from Pixabay" />
+            </div>
+            <h2>여의상자</h2>
+            <p>
+              모든 것은 뜻대로.
+              <br />
+              부귀영화를 이루어주는 여의상자.
+              <br />
+              그 안에 든 보물은
+              <br />
+              때가 되면 돌려줘야 하는 것.
+              <br />
+              하지만 인간은 매번
+              <br />
+              탐욕에서 헤어나지 못하기에…….
+            </p>
+          </div>
+        </section>
+        <section id="section3">
+          <div class="wrapper">
+            <div class="media">
+              <img
+                src="img/fire-3478889_1280.jpg"
+                alt="Image by Alexa from Pixabay" />
+            </div>
+            <h2>웃는 모란화</h2>
+            <p>
+              아름다운 새 신부.
+              <br />
+              혼례를 앞두고 불꽃에 휩싸였다.
+              <br />
+              죽어도 눈을 감지 못해
+              <br />
+              활활 불타면서
+              <br />
+              오늘 밤도 찾아온다.
+            </p>
+          </div>
+        </section>
+        <section id="section4">
+          <div class="wrapper">
+            <div class="media">
+              <img
+                src="img/statue-3520416_1280.jpg"
+                alt="Image by 1195798 from Pixabay" />
+            </div>
+            <h2>월궁선녀</h2>
+            <p>
+              새하얀 달빛 속에서
+              <br />
+              나무꾼은 선녀를 만났다.
+              <br />
+              피로 물든 입술.
+              <br />
+              발 밑에 구르는 시신.
+              <br />
+              그녀는 얼음처럼 차갑고
+              <br />
+              녹아버릴 것 같은 시선으로
+              <br />
+              나무꾼을 바라보았다…….
+            </p>
+          </div>
+        </section>
+        <section id="section5">
+          <div class="wrapper">
+            <div class="media">
+              <img
+                src="img/doll-1224531_1280.jpg"
+                alt="Image by Simon Blüthenkranz from Pixabay" />
+            </div>
+            <h2>목각인형</h2>
+            <p>
+              고개를 돌리면 언제나 그곳에 있었다.
+              <br />
+              내가 버린 작은 인형.
+              <br />
+              머나먼 황천길을 걸어 나를 찾아온다.
+              <br />
+              나는 그 인형이 무섭다.
+              <br />
+              나는 그 인형이 그립다.
+            </p>
+          </div>
+        </section>
+      </main>
+      <aside>
+        <h2 class="hide">links to each pages</h2>
+        <ol>
+          <a href="#section1">
+            <li>그믐달</li>
+          </a>
+          <a href="#section2">
+            <li>1장</li>
+          </a>
+          <a href="#section3">
+            <li>2장</li>
+          </a>
+          <a href="#section4">
+            <li>3장</li>
+          </a>
+          <a href="#section5">
+            <li>4장</li>
+          </a>
+        </ol>
+      </aside>
+      <div class="progressBar"><div class="indicator"></div></div>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <h2><유랑화사> 1권</h2>
+        <p>지은이 : 정연</p>
+        <p style="font-style: italic; font-weight: 700">
+          기담을 좇아 떠도는 정체불명의 화술사.
+          <br />
+          세간에서는 그를 일컬어 '유랑화사'라 한다.
+        </p>
         <p>
-          달이 있는 것도 아니고
+          "이 세상은 말하자면 한 폭의 커다란 그림이지.
           <br />
-          없는 것도 아니고
+          멀쩡한 것 같아도 구석구석 잘 살펴보면 이상한 곳이 많다니까.
           <br />
-          이지러질 듯 그러나 서늘하게
+          난 그런 이상한 부분을 발견할 때마다 새로 고쳐 그릴 뿐이야."
+        </p>
+        <p>
+          상자 속에 든 여우, 불꽃에 휩싸인 채 밤마다 찾아오는 신부,
           <br />
-          어둠을 밝히는 빛.
+          선녀를 죽인 나무꾼, 도련님을 공격하는 목각인형,
           <br />
-          그렇게 있는 듯 없는 듯
+          일상과 이상의 경계에서 기이한 일들이 벌어지고…….
+        </p>
+        <p>"상관없어. 난 엄마를 꼭 찾아야 돼."</p>
+        <p>
+          엄마를 찾아 헤매는 여우 소녀와
           <br />
-          세상을 떠도는 어느 이상한 화사가
+          신묘한 그림을 그리는 떠돌이 화사는
           <br />
-          있다던데…….
+          애절한 정한과 감춰진 사연을 밝혀 나간다.
         </p>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
