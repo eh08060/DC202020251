@@ -5,8 +5,6 @@
   font-family: "Gowun Batang", serif;
 }
 
-.section {
-}
 .container {
   $padding-inline-value: 64px;
   max-width: 1200px + 2 * $padding-inline-value;
@@ -35,9 +33,9 @@
 .nav {
   background-color: whitesmoke;
   color: black;
-  font-weight: 700;
-  container-type: inline-size;
-  container-name: nav;
+  // font-weight: 700;
+  // container-type: inline-size;
+  // container-name: nav;
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -52,14 +50,14 @@
   .lt680px {
     display: none;
   }
-  @container nav (width < 42.5rem) {
-    &__menuWrapper {
-      display: none;
-    }
-    .lt680px {
-      display: unset;
-    }
-  }
+  // @container nav (width < 42.5rem) {
+  //   &__menuWrapper {
+  //     display: none;
+  //   }
+  //   .lt680px {
+  //     display: unset;
+  //   }
+  // }
 }
 
 .main {
@@ -152,8 +150,8 @@
   background-color: whitesmoke;
   color: gray;
   font-size: 0.875rem;
-  container-type: inline-size;
-  container-name: footer;
+  // container-type: inline-size;
+  // container-name: footer;
   a {
     text-decoration: none;
     color: gray;
@@ -186,14 +184,14 @@
     align-items: center;
     margin-bottom: 0.5rem;
   }
-  @container footer (width < 44.375rem) {
-    .column:first-of-type {
-      grid-row: 1 / span 2;
-    }
-    .wrapper {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
+  // @container footer (width < 44.375rem) {
+  //   .column:first-of-type {
+  //     grid-row: 1 / span 2;
+  //   }
+  //   .wrapper {
+  //     grid-template-columns: 1fr 1fr 1fr;
+  //   }
+  // }
 }
 a {
   text-decoration: none;

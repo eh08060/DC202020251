@@ -34,9 +34,6 @@
 .nav {
   background-color: whitesmoke;
   color: black;
-  font-weight: 700;
-  container-type: inline-size;
-  container-name: nav;
 }
 .nav .wrapper {
   display: flex;
@@ -51,14 +48,6 @@
 }
 .nav .lt680px {
   display: none;
-}
-@container nav (width < 42.5rem) {
-  .nav__menuWrapper {
-    display: none;
-  }
-  .nav .lt680px {
-    display: unset;
-  }
 }
 
 .main__media {
@@ -141,8 +130,6 @@
   background-color: whitesmoke;
   color: gray;
   font-size: 0.875rem;
-  container-type: inline-size;
-  container-name: footer;
 }
 .footer a {
   text-decoration: none;
@@ -175,14 +162,6 @@
   gap: 8px;
   align-items: center;
   margin-bottom: 0.5rem;
-}
-@container footer (width < 44.375rem) {
-  .footer .column:first-of-type {
-    grid-row: 1/span 2;
-  }
-  .footer .wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 a {
