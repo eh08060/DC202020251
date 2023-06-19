@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Hahmlet:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.section {
+  text-align: center;
+}
+
+.container {
+  max-width: 928px;
+  margin-inline: auto;
+  padding-inline: 64px;
+}
+
+.nav {
+  font-family: "Bruno Ace SC", cursive;
+  padding: 8px;
+}
+
+.main {
+  font-family: "Hahmlet", serif;
+}
+
+.fade-in-box {
+  display: inline-block;
+  padding: 10px;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
