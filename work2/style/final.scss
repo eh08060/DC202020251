@@ -246,6 +246,7 @@ footer {
 img {
   width: 100%;
   height: auto;
+  max-width: device-width;
 }
 
 section {
@@ -253,10 +254,8 @@ section {
 }
 
 .scroll-text {
+  width: 100%;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.scroll-text.show {
-  opacity: 1;
+  transform: translatey(50px);
+  transition: all 0.5s;
 }

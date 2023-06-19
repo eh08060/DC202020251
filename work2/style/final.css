@@ -216,8 +216,16 @@ footer .wrapper {
 img {
   width: 100%;
   height: auto;
+  max-width: device-width;
 }
 
 section {
   text-align: center;
+}
+
+.scroll-text {
+  width: 100%;
+  opacity: 0;
+  transform: translatey(50px);
+  transition: all 0.5s;
 }
