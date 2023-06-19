@@ -251,3 +251,12 @@ img {
 section {
   text-align: center;
 }
+
+.scroll-text {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.scroll-text.show {
+  opacity: 1;
+}
