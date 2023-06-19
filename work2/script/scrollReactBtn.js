@@ -1,8 +1,6 @@
 const observingTargets = document.querySelectorAll("main section");
-// console.log(observingTargets);
 
 const toggleTargets = document.querySelectorAll("aside>ol>a");
-// console.log(toggleTargets);
 
 const pageBtnMap = new Map();
 const setPageBtnMap = () => {
@@ -11,7 +9,6 @@ const setPageBtnMap = () => {
   });
 };
 setPageBtnMap();
-// console.log(pageBtnMap);
 
 let lastBtn;
 
@@ -32,12 +29,9 @@ const visualizingMargin = () => {
   document.body.append(bottomMargin);
 };
 
-// visualizingMargin();
-
 const whenTargetInView = (entities, observer) => {
   entities.forEach((eachEntity) => {
     if (eachEntity.isIntersecting) {
-      //   console.log("isIn!", eachEntity.target);
       const pairedTarget = pageBtnMap.get(eachEntity.target);
       console.log(pairedTarget);
       const finalTarget = pairedTarget.querySelector("li");
@@ -45,7 +39,6 @@ const whenTargetInView = (entities, observer) => {
       lastBtn?.classList.remove("pressed");
       lastBtn = finalTarget;
     } else {
-      //   console.log("isOut!", eachEntity.target);
     }
   });
 };
