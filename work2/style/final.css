@@ -236,6 +236,6 @@ section {
   }
 }
 .blink {
-  animation: blink-effect 4.3s step-end infinite;
+  animation: blink-effect 1.4s step-end infinite;
   opacity: 50%;
 }
