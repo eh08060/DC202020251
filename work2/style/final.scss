@@ -26,7 +26,7 @@ $accent: var(--accent);
 }
 
 html {
-  color-scheme: light dark;
+  color-scheme: dark;
   scroll-behavior: smooth;
 }
 
@@ -258,4 +258,14 @@ section {
   opacity: 0;
   transform: translatey(50px);
   transition: all 0.5s;
+}
+
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink-effect 4.3s step-end infinite;
+  opacity: 50%;
 }
