@@ -140,9 +140,6 @@ aside a {
   inset: 0;
 }
 
-footer {
-  background-color: #d9d9d9;
-}
 footer .wrapper {
   min-height: max(100dvh, 2rem);
 }
@@ -241,7 +238,6 @@ section {
 }
 .blink {
   animation: blink-effect 2s step-end infinite;
-  opacity: 70%;
   margin: 0;
   padding: 0;
 }
