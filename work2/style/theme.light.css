@@ -1,0 +1,20 @@
+/* :root {
+    --bg: #2c2949;
+    --bgVariant: #0f0d2a;
+    --txt: #e4e1e6;
+    --surface-transparent: rgba(42, 39, 56, 0.5);
+    --surface: #26272b;
+    --onSurface: #fff1cc;
+    --accent: #ffbb00;
+  }
+   */
+
+:root {
+  --bg: #e4e1e6;
+  --bgVariant: #cfc4d7;
+  --txt: #0f0d2a;
+  --surface-transparent: rgba(42, 39, 56, 0.5);
+  --surface: #26272b;
+  --onSurface: #fff1cc;
+  --accent: #ffbb00;
+}

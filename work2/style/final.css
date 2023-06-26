@@ -31,10 +31,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: calc(50ch + 4rem);
+  max-width: calc(80ch + 4rem);
   min-height: max(1dvh, 2rem);
   margin-inline: auto;
   padding-inline: 2rem;
+  padding-top: 2.75rem;
+  padding-bottom: 2rem;
 }
 
 header {
@@ -211,6 +213,8 @@ footer .wrapper {
   -o-object-fit: cover;
      object-fit: cover;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -236,6 +240,8 @@ section {
   }
 }
 .blink {
-  animation: blink-effect 1.4s step-end infinite;
-  opacity: 50%;
+  animation: blink-effect 2s step-end infinite;
+  opacity: 70%;
+  margin: 0;
+  padding: 0;
 }
