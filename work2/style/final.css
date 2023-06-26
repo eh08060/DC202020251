@@ -142,6 +142,10 @@ aside a {
   inset: 0;
 }
 
+footer {
+  background-color: darkgray;
+  color: #26272b;
+}
 footer .wrapper {
   min-height: max(100dvh, 2rem);
 }
